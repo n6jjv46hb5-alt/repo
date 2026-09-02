@@ -36,7 +36,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: comskip-windows-donator
-        path: |
-          comskip.exe
-          comskip-gu
-          i.exe
+        path: "*.exe"

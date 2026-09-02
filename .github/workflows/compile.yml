@@ -1,7 +1,7 @@
 name: Compile Comskip Windows Donator
 
 on:
-  workflow_dispatch: # Permet de lancer la compilation manuellement en un clic
+  workflow_dispatch:
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
           git
           base-devel
           mingw-w64-x86_64-toolchain
-          mingw-w64-x86_64-ffmpeg
+          mingw-w64-x86_64-ffmpeg6
           mingw-w64-x86_64-argtable3
 
     - name: Compile Comskip Donator
